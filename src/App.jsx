@@ -4,7 +4,7 @@ import Layout from './Compontent/Layout/Layout'
 import Home from './Compontent/Home/Home'
 import Cart from './Compontent/Cart/Cart'
 import Login from './Compontent/Login/Login'
-import SignUp from './Compontent/SignUp/SignUp'
+import Signup from './Compontent/Signup/Signup'
 import NotFount from './Compontent/Notfound/NotFount'
 import Brand from './Compontent/Brand/Brand'
 import Category from './Compontent/Category/Category'
@@ -33,7 +33,7 @@ function App() {
            {path:'shippingdetalis/:id', element:<ProtectdRouting><ShippingDetalis/></ProtectdRouting>},
            {path:'productdetails/:id', element:<ProtectdRouting><ProductDetails/></ProtectdRouting>},
            {path:'login', element:<Login/>},
-           {path:'register', element:<SignUp/>},
+           {path:'register', element:<Signup/>},
            {path:'forgotPasswords', element:<ForgotPasswords/>},
            {path:'updataPassword', element:<UpdataPassword/>},
            {path:'*', element:<NotFount/>},
