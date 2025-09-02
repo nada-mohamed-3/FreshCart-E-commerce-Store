@@ -1,5 +1,5 @@
 
-import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
+import {createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Compontent/Layout/Layout'
 import Home from './Compontent/Home/Home'
 import Cart from './Compontent/Cart/Cart'
