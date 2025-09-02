@@ -67,15 +67,7 @@ let {numsCartItems} = useContext(CartContext)
                   Home
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/product"
-                  className={(x)=>x.isActive ? "block py-2 px-3 text-active" : "block py-2 px-3"}
-                  aria-current="page"
-                >
-                  Products
-                </NavLink>
-              </li>
+              
               <li>
                 <NavLink
                   to="/cart"
