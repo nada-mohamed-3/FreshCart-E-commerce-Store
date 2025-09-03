@@ -39,7 +39,8 @@ function App() {
            {path:'*', element:<NotFount/>},
         ]
       }
-    ])
+    ]
+  )
 
     let client = new QueryClient()
 
