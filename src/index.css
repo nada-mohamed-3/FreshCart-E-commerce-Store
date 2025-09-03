@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
 
+@import 'flowbite/dist/flowbite.css';
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-@import 'flowbite/dist/flowbite.css';
+
 
 
 :root
